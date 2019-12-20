@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "swagger",
+      "type": "cn.com.kaituo.smart_community.swagger.SwaggerProperties",
+      "sourceType": "cn.com.kaituo.smart_community.swagger.SwaggerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "swagger.api-info",
+      "type": "cn.com.kaituo.smart_community.swagger.properties.SoftworksApiInfoProperties",
+      "sourceType": "cn.com.kaituo.smart_community.swagger.SwaggerProperties"
+    },
+    {
+      "name": "swagger.docket",
+      "type": "cn.com.kaituo.smart_community.swagger.properties.SoftworksDocketProperties",
+      "sourceType": "cn.com.kaituo.smart_community.swagger.SwaggerProperties"
+    },
+    {
+      "name": "swagger.enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "cn.com.kaituo.smart_community.swagger.SwaggerProperties"
+    }
+  ],
+  "hints": []
+}

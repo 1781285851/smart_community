@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/smart_community-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/smart_community-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/smart_community-deploy" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/smart_community-gatesvr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/smart_community-login" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/smart_community-produce" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/smart_community-project" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/smart_community-resource" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/smart_community-swagger" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/smart_community-task" charset="UTF-8" />
+  </component>
+</project>

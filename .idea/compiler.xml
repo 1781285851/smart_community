@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="smart_communitytask" />
+        <module name="smart_communityproduce" />
+        <module name="smart_communityresource" />
+        <module name="smart_communityproject" />
+        <module name="smart_communitygatesvr" />
+        <module name="smart_communityswagger" />
+        <module name="smart_communitylogin" />
+        <module name="smart_communitycommon" />
+        <module name="smart_communitydeploy" />
+        <module name="smart_communitycore" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="smart_communitycommon" options="-parameters" />
+      <module name="smart_communitycore" options="-parameters" />
+      <module name="smart_communitydeploy" options="-parameters" />
+      <module name="smart_communitygatesvr" options="-parameters" />
+      <module name="smart_communitylogin" options="-parameters" />
+      <module name="smart_communityproduce" options="-parameters" />
+      <module name="smart_communityproject" options="-parameters" />
+      <module name="smart_communityresource" options="-parameters" />
+      <module name="smart_communityswagger" options="-parameters" />
+      <module name="smart_communitytask" options="-parameters" />
+    </option>
+  </component>
+</project>

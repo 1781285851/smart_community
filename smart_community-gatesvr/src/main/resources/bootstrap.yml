@@ -1,0 +1,17 @@
+swagger:
+  enable: true  #是否开启Swagger
+  api-info:
+    description: ${spring.application.name}
+    license: ${spring.application.name}
+    license-url: http://www.inforsw.com
+    terms-of-service-url: http://www.inforsw.com
+    title: 软件工厂服务代理接口
+    version: "${application.version}"
+    contact:
+      email: wangcong@inforsw.com
+      name: 南京鸿美信息技术有限公司
+      url: http://www.inforsw.com
+  docket:
+    base-package: cn.com.kaituo.smart_community.login.controller   #扫描路径，建议以Controller的父包为主
+    group-name: ${spring.application.name}
+

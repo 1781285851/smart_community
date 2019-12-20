@@ -1,0 +1,27 @@
+zuul:
+  routes:
+    softworks-login:
+      path: /auth/${feign-login-version}/**   #用来代替统一的服务实例名
+      serviceId: ${environment}-${project}-${feign-login-name}-${feign-login-version}   #微服务注册对外暴露的统一的服务实例名
+    softworks-project:
+      path: /project/${feign-project-version}/**
+      serviceId: ${environment}-${project}-${feign-project-name}-${feign-project-version}
+    softworks-resource:
+      path: /resource/${feign-resource-version}/**
+      serviceId: ${environment}-${project}-${feign-resource-name}-${feign-resource-version}
+    softworks-produce:
+      path: /produce/${feign-produce-version}/**
+      serviceId: ${environment}-${project}-${feign-produce-name}-${feign-produce-version}
+    softworks-task:
+      path: /task/${feign-task-version}/**
+      serviceId: ${environment}-${project}-${feign-task-name}-${feign-task-version}
+    softworks-core:
+      path: /core/${feign-core-version}/**
+      serviceId: ${environment}-${project}-${feign-core-name}-${feign-core-version}
+  ignored-services: '*'   #设置忽略，单个写具体名称，多个写*     如果不配置这部，则微服务注册对外暴露的统一的服务实例名和用来代替统一的服务实例名都可以访问
+  host:
+    max-total-connections: 500
+    socket-timeout-millis: 60000
+    connect-timeout-millis: 60000
+  ssl-hostname-validation-enabled: false
+  ignored-headers: Access-Control-Allow-Credentials, Access-Control-Allow-Origin

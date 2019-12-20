@@ -1,0 +1,7 @@
+cn\com\kaituo\smart_community\swagger\SwaggerAutoConfiguration.class
+cn\com\kaituo\smart_community\swagger\properties\SoftworksDocketProperties.class
+cn\com\kaituo\smart_community\swagger\SwaggerProperties.class
+cn\com\kaituo\smart_community\swagger\properties\SoftworksApiInfoProperties.class
+cn\com\kaituo\smart_community\swagger\properties\SoftworksApiParamType.class
+cn\com\kaituo\smart_community\swagger\properties\SoftworksContact.class
+META-INF\spring-configuration-metadata.json

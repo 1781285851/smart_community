@@ -1,0 +1,1 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=cn.com.kaituo.smart_community.swagger.SwaggerAutoConfiguration
